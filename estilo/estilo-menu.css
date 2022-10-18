@@ -1,0 +1,13 @@
+@font-face {
+    font-family: futura;
+    src: url('../tipografia/Futura\ Bold.otf')
+  }
+nav{
+  background: rgb(36, 50, 97);
+}
+ul li a{
+    font-family: futura;
+}
+.icono-adaptable{
+  background-color: rgb(255, 255, 255);
+}

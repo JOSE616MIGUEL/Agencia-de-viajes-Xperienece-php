@@ -1,0 +1,21 @@
+{
+
+    "name": "conexion/passarinho",
+    "description": "creación de una tienda online",
+    "type":"project",
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "jose miguel calderon",
+            "email": "calderoncay123@gmail.com"
+        }
+    ],
+    "require":{
+        "mpdf/mpdf": "^8.1"
+    },
+    "autoload":{
+        "psr-4": {
+            "conexion\\": "src/"
+        }
+    }
+}

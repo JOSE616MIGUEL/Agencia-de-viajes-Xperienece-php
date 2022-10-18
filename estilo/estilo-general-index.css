@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@font-face {
+  font-family: blankit;
+  src: url('../tipografia/Blankit\ 400.otf')
+}
+@font-face {
+    font-family: futura;
+    src: url('../tipografia/Futura\ Bold.otf')
+  }
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  cursor: pointer;
+}
